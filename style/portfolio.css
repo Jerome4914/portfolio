@@ -1,0 +1,132 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#container {
+    background-color: rgb(245, 245, 245);
+    width: 970px;
+    height: 980px;
+}
+
+#main-content {
+    height: 870px;
+    width: 970px;
+    margin-top: 20px;
+    background-image: radial-gradient(circle, rgb(92, 70, 81), rgb(58, 40, 47), rgb(23, 12, 15));
+}
+
+h1 {
+    margin-left: 20px;
+    padding-top: 10px;
+    font-family: 'Comic Neue', 'cursive';
+}
+
+h1,
+h2,
+div {
+    display: inline-block;
+}
+
+h2 {
+    margin-left: 370px;
+}
+
+.mainimg {
+    height: 300px;
+    width: 400px;
+    border: 5px solid lightgrey;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#about {
+    height: 310px;
+    width: 495px;
+    background-image: linear-gradient(to right, rgb(252, 252, 253), rgb(211, 193, 211));
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#about p,
+#about a {
+    padding: 10px;
+}
+
+p {
+    padding: 5px;
+}
+
+h3 {
+    color: white;
+    height: 20px;
+    padding: 10px 0 10px 10px;
+    background-image: linear-gradient(rgb(187, 184, 192), rgb(158, 158, 158), rgb(187, 184, 192));
+}
+
+h4 {
+    color: white;
+    height: 15px;
+    padding: 5px 0 7px 5px;
+    background-image: linear-gradient(rgb(187, 184, 192), rgb(158, 158, 158), rgb(187, 184, 192));
+}
+
+a {
+    color: black;
+    padding-left: 5px;
+}
+
+.infoboxes {
+    height: 495px;
+    width: 290px;
+    background-image: linear-gradient(to right, rgb(252, 252, 253), rgb(211, 193, 211));
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.push {
+    margin-right: 5px;
+}
+
+.infoboxes .icons img {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+
+.infoboxes img {
+    width: 290px;
+    height: 200px;
+}
+
+button {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+
+#push-left {
+    margin-left: 85px;
+}
+
+#footer {
+    width: 500px;
+    margin-left: 320px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    height: 30px;
+}
+
+#footer img {
+    width: 10px;
+    height: 10px;
+}
+
+#footer p {
+    margin-left: 40px;
+}
